@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Authors>Maurice Kelly</Authors>
+        <Company>Pragmatic Applications</Company>
+        <Copyright>2021 Pragmatic Applications</Copyright>
+        <Description>A .NET 5 browser enabled library that can be used in a Blazor Wasm project.</Description>
+        <PackageReleaseNotes>A .NET 5 browser enabled library that can be used in a Blazor Wasm project.</PackageReleaseNotes>
+        <Version>0.0.0.1</Version>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageTags>.NET5 Browser-Enabled Library</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <SupportedPlatform Include="browser" />
+    </ItemGroup>
+
+</Project>
